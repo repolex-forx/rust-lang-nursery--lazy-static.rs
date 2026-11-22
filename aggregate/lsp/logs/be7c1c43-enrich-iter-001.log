@@ -1,0 +1,19 @@
+[2026-11-22T09:09:36Z] === ENRICH ITERATION 1 START | repo=rust-lang-nursery/lazy-static.rs sha=be7c1c43 ===
+[2026-11-22T09:09:36Z] [iter=1] PHASE START: enrich repo=rust-lang-nursery/lazy-static.rs sha=be7c1c43 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/be7c1c43-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/be7c1c43f264699f956b70ce8e29941bd1e61bde.nq.gz
+[2026-11-22T09:09:39Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T09:09:39Z] [iter=1] AST store loaded triples=12032 load_secs=0 mem_mb=100 MB
+[2026-11-22T09:09:39Z] [iter=1] Step 2: Finding LSP targets mem_mb=100 MB
+[2026-11-22T09:09:39Z] [iter=1] LSP targets found call_sites=59 imports=12 extends=0 implements=5 secs=0
+[2026-11-22T09:09:39Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=100 MB
+[2026-11-22T09:09:39Z] [iter=1] Position index built positions=824 nodes_with_types=922 secs=0 mem_mb=100 MB
+[2026-11-22T09:09:39Z] [iter=1] Step 3: Starting LSP resolution mem_mb=100 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T09:09:39Z] [iter=1] Resolving target type target_type=call_site count=59
+[2026-11-22T09:09:56Z] [iter=1] Target type resolved target_type=call_site resolved=49 errors=0 secs=17 mem_mb=100 MB
+[2026-11-22T09:09:56Z] [iter=1] Resolving target type target_type=import_statement count=12
+[2026-11-22T09:10:05Z] [iter=1] Target type resolved target_type=import_statement resolved=11 errors=0 secs=8 mem_mb=100 MB
+[2026-11-22T09:10:05Z] [iter=1] Resolving target type target_type=implements_clause count=5
+[2026-11-22T09:10:06Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=src/inline_lazy.rs
+[2026-11-22T09:10:11Z] [iter=1] Target type resolved target_type=implements_clause resolved=3 errors=0 secs=6 mem_mb=100 MB
+[2026-11-22T09:10:19Z] [iter=1] Step 5: Writing final enrichment file triples=816
+[2026-11-22T09:10:19Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/be7c1c43f264699f956b70ce8e29941bd1e61bde.nq.gz size_kb=10
+[2026-11-22T09:10:19Z] [iter=1] PHASE END: enrich elapsed_s=44 elapsed_min=0.7 total_triples=816

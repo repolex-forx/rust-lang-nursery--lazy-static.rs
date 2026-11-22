@@ -31,6 +31,27 @@
       ],
       "ast": [
         "aggregate/ast/be7c1c43f264699f956b70ce8e29941bd1e61bde/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/be7c1c43f264699f956b70ce8e29941bd1e61bde.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "doc-comment",
+          "ecosystem": "CARGO",
+          "version": "0.3.1",
+          "githubOrg": "GuillaumeGomez",
+          "githubRepo": "doc-comment",
+          "githubUrl": "https://github.com/GuillaumeGomez/doc-comment",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
