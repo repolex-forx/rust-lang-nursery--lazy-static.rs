@@ -1,0 +1,39 @@
+{
+  "manifest_version": "1.0",
+  "org": "rust-lang-nursery",
+  "repo": "lazy-static.rs",
+  "versions": [
+    {
+      "commit": "be7c1c43f264699f956b70ce8e29941bd1e61bde",
+      "parsed_at": "2026-11-22T09:05:37.410165+00:00",
+      "tag": "1.5.0",
+      "filetree": "filetree/be7c1c43f264699f956b70ce8e29941bd1e61bde.nq.gz",
+      "blobs": [
+        "blob/36d52d347b8d468e896c4ad48e36cfae1c259821.nq.gz",
+        "blob/3de0e4b952dd021a4ca32d811c75326ae92373e1.nq.gz",
+        "blob/92b07ab9d431f8a6dcfe849fb076a537ef9e1ae7.nq.gz",
+        "blob/25597d5838fa4cd7ff5c3c2bb1d1b4c3731eda7f.nq.gz",
+        "blob/e3324949a181a8c621c8e0092d69247161688185.nq.gz",
+        "blob/38007d475e4d92e70e14f20ca193638111310d5b.nq.gz",
+        "blob/16fe87b06e802f094b3fbb0894b137bca2b16ef1.nq.gz",
+        "blob/93edbe8a6b6f9babc4c7d3a40eac6267945c7529.nq.gz",
+        "blob/49407ab6a67deffc460041fed631c589ac1ec495.nq.gz",
+        "blob/af007cd274b38cb02871a8aa6185a80695c17b87.nq.gz",
+        "blob/4486f013d3ecdf20962117dc15b6aee53c2580a8.nq.gz",
+        "blob/69a9a062288a43be1d60021cf8f777637d4807bb.nq.gz",
+        "blob/e2f16bcde8509f0020c3ec1dcaf92e9470737f47.nq.gz",
+        "blob/045ce14b8fa0191495f81fa36fa34dff1523ca9b.nq.gz",
+        "blob/5d44f02dcb25626c3e104aa143f9f7b55d30be70.nq.gz",
+        "blob/e5ccb61c17d292b622b30719d145e67c301b589d.nq.gz",
+        "blob/23b8f5eb554eb79063824cd5208a2e464fcdbe83.nq.gz",
+        "blob/5003fa2c9957d81d484f80b0c3adb68973608f78.nq.gz",
+        "blob/eb659d426d5548288cb1d57c6159934f6004eed7.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
